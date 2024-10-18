@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.product-name {
+    font-size: 2rem;
+    color: #343a40; /* Dark gray text */
+}
+
+.cart, .product {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+#totalCost {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.cart p {
+    font-size: 1.1rem;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+input[type="number"] {
+    max-width: 80px; /* Limits the width of quantity input */
+}
